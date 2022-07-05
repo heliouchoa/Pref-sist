@@ -10,10 +10,6 @@ let confirmarSenha = document.querySelector('#confirmarSenha')
 let labelConfirmeSenha = document.querySelector('#labelConfirmeSenha')
 let validConfirmarSenha = false
 
-let cargoPerfil = document.querySelector('#cargoPerfil')
-let labelCargo = document.querySelector('#labelCargo')
-let validCargo = false
-
 // validação dos campos
 nome.addEventListener('keyup',()=>{
     if(nome.value.length <=2){
@@ -55,7 +51,7 @@ confirmarSenha.addEventListener('keyup',()=>{
     }
 })
  
-export function cadastrar(){
+function cadastrar(){
     if(validNome && validSenha && validConfirmarSenha){
       let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
       

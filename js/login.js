@@ -1,4 +1,3 @@
-import {cadastrar} from './regsitUser.js'
 
 function entrar(){
     let usuario = document.querySelector('#usuario')
