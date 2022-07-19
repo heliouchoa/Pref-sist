@@ -10,7 +10,7 @@ function validar(){
      
    
     if(oficio.value ==""){
-        alert("Nome não informado");
+        alert("oficio não informado");
     }
     if(data.value ==""){
         alert("Data não informada");
@@ -30,7 +30,6 @@ function validar(){
     if(arquivo.value ==""){
         alert("Insira o arquivo");
     }else{
-        console.log(validar);
-        //document.getElementById("expedido-form").submit();
+        
     }
 }

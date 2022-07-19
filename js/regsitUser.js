@@ -10,7 +10,7 @@ let confirmarSenha = document.querySelector('#confirmarSenha')
 let labelConfirmeSenha = document.querySelector('#labelConfirmeSenha')
 let validConfirmarSenha = false
 
-// validação dos campos
+// validação dos campos de usuario
 nome.addEventListener('keyup',()=>{
     if(nome.value.length <=2){
         labelNome.setAttribute('style','color:red')
